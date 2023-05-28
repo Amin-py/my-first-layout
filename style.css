@@ -1,10 +1,10 @@
 html,
-body  {
+body {
     overflow-x: hidden;
 }
 
 body {
-    margin: auto 0;
+    margin: 0 auto;
     font-family: Arial;
 }
 
@@ -71,7 +71,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 20vh;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
 }
 
 .cover {
@@ -82,21 +89,24 @@ a {
 .grid-wrapper {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .box>img {
-    width: 100%
+    width: 100%;
 }
 
 .box {
     background-color: #444;
-    padding: 130px;
+    padding: 100px;
     margin: 20px;
 }
 
 footer {
     text-align: center;
+    justify-content: center;
+    height: 8vh;
+    padding: 40px;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
